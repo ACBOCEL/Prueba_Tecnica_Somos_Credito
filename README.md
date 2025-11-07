@@ -31,7 +31,7 @@ Instalar dependencia sequelize
 Instalar cors para la conexión con el Frontend
 -	npm install cors
 
-Con todo esto listo podemos ejecutar el Backend, con el sigueinte comando estando en la tura Backend Somos Credito/src
+Con todo esto listo podemos ejecutar el Backend, con el sigueinte comando estando en la ruta Backend Somos Credito/src
 
 -	Node app.js
 
