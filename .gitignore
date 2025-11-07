@@ -1,0 +1,7 @@
+.DS_Store
+*.log
+
+/Backend Somos Credito/node_modules
+
+
+/Backend Somos Credito/.env

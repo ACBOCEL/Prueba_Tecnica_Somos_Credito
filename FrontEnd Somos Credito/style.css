@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+/* Formulario */
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    flex-basis: 400px;
+    flex-grow: 1;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"] {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+}
+
+form button[type="button"] {
+    background-color: #6c757d;
+}
+
+/* Lista de sucursales */
+.lista-container {
+    flex-grow: 2;
+    flex-basis: 400px;
+}
+
+.sucursal-item {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sucursal-item h3 {
+    margin: 0;
+    color: #007bff;
+}
+
+.sucursal-item p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.sucursal-item .estado-activo {
+    color: green;
+    font-weight: bold;
+}
+.sucursal-item .estado-inactivo {
+    color: red;
+    font-weight: bold;
+}
+
+.sucursal-item .acciones button {
+    margin-left: 10px;
+}
+
+.hidden {
+    display: none;
+}

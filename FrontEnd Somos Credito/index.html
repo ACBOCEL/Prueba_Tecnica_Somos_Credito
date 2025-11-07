@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Sucursales</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Gestión de Sucursales</h1>
+
+    <div class="container">
+        <form id="sucursal-form">
+            <h2>Crear nueva Sucursal</h2>
+            
+            <input type="hidden" id="sucursal-id">
+            
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" required>
+            </div>
+            <div>
+                <label for="direccion">Dirección:</label>
+                <input type="text" id="direccion" required>
+            </div>
+            <div>
+                <label for="telefono">Teléfono:</label>
+                <input type="text" id="telefono" required>
+            </div>
+            <div>
+                <label for="estado">Activo:</label>
+                <input type="checkbox" id="estado" checked>
+            </div>
+            <button type="submit">Guardar</button>
+            <button type="button" id="btn-cancelar" class="hidden">Cancelar</button>
+        </form>
+
+        <div class="lista-container">
+            <h2>Sucursales Existentes</h2>
+            <div id="sucursales-lista">
+                </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
